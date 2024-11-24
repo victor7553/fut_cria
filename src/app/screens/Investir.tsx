@@ -1,16 +1,14 @@
 import {View, Text, StyleSheet} from "react-native";
-import Routes from "./routes";
 
-const Home = () => {
+const Investir = () => {
 
     return(
-        // <View style={styles.container}>
-        //     <Text>olá mundo</Text>
-        // </View>
-        <Routes/>
+        <View style={styles.container}>
+            <Text>olá mundo</Text>
+        </View>
     )
 }
-export default Home;
+export default Investir;
 
 const styles = StyleSheet.create({
 
