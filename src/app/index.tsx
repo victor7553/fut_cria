@@ -1,5 +1,5 @@
-import {View, Text, StyleSheet} from "react-native";
 import Routes from "./routes";
+import { NavigationContainer } from "@react-navigation/native";
 
 const Home = () => {
 
@@ -7,17 +7,12 @@ const Home = () => {
         // <View style={styles.container}>
         //     <Text>olá mundo</Text>
         // </View>
-        <Routes/>
+
+        // possivel solução do problema
+        <NavigationContainer>
+            <Routes/>
+        </NavigationContainer>
+        
     )
 }
 export default Home;
-
-const styles = StyleSheet.create({
-
-    container:{
-        flex: 1,
-        backgroundColor: 'fffff',
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
-})
